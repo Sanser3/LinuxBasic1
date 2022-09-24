@@ -1,0 +1,17 @@
+   0 mkdir -p /home/user/start
+   1 echo "Start" > /home/user/start/1.txt
+   2 date >> /home/user/start/1.txt 
+   3 mkdir -p /opt/task
+   4 cp /home/user/start/1.txt /opt/task/start.txt
+   5 ls -a | tail -4 >> /opt/task/start.txt 
+   6 cat /opt/task/start.txt 
+   7 date > /opt/task/second.txt 
+   8 df -h
+   9 df -h | head -2 | tail -1 >> /opt/task/second.txt 
+  10 history | tail -5 >> /opt/task/second.txt 
+  11 cat /proc/cpuinfo
+  12 cat /proc/cpuinfo | head -2 | tail -1 >> /opt/task/second.txt 
+  13 cat /opt/task/second.txt
+  14 vi /opt/task/second.txt  
+  15 history
+  16 history > /tmp/history.txt
