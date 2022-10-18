@@ -15,3 +15,5 @@ do
 touch /tmp/$r.txt
 done
  
+
+# я не смог реализовать ps -ef | ws -l и cat /proc/cpuinfo | grep -o AuthenticX86 >> /tmp/newfile.txt
