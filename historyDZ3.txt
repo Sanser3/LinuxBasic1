@@ -1,6 +1,8 @@
 #!/bin/bash
-date +"%H%M%S"
 for run in {1..10}
 do
 touch $run`date "+%H%M%S"`.txt
 done
+
+
+
